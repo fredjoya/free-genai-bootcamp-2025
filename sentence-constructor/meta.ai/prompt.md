@@ -16,9 +16,6 @@ Beginner
 - The table of vocabulary should only have the following coloumns for its main table: Modern Standard Arabic and English.
 - The arabic text should also have a corresponding transliteration in english letters.
 
-## Examples
-
-Here are example of input and output
 
 ## Student Input
 Did you see the bird this morning? They were in our garden.
