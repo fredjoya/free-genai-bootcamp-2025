@@ -12,7 +12,7 @@ Beginner
 - Provide us a table of vocabulary
 - Provide words in their dictionary form, student needs to figure out conjugations and tenses
 - Provide a possible sentence structure
-- The arabic text should also have a corresponding transliteration in english letters.
+- The arabic text should also have a corresponding transliteration in english letters, especially in the table
 
 ## Formatting Instructions
 
@@ -28,6 +28,35 @@ The formatted output will gnerally contain three parts:
 
 ### Sentence Structure
 - do not provide particles in the sentence structure
+- do not provide tenses or conjugations in the sentence structure
+- remember to consider beginner level sentence structures
+
+Here is an example of simple sentence structures.
+Basic Sentence Structures
+Nominal Sentence (Jملة اسمية) — Starts with a noun or pronoun.
+
+Subject + predicate
+Example: الطائر جميل (aṭ-ṭā'ir jamīl) — The bird is beautiful.
+Verbal Sentence (جملة فعلية) — Starts with a verb.
+
+Verb + subject + object
+Example: رأيت الطائر (ra'aytu aṭ-ṭā'ir) — I saw the bird.
+Possessive Structure (إضافة) — To show possession.
+
+Possessed noun + possessor (like "our garden")
+Example: حديقتنا جميلة (ḥadīqatunā jamīlah) — Our garden is beautiful.
+Prepositional Phrase (جار ومجرور) — To describe location, time, etc.
+
+Preposition + noun
+Example: في الحديقة (fī al-ḥadīqah) — In the garden.
+Yes/No Questions (أسئلة نعم ولا) —
+
+هل + nominal or verbal sentence
+Example: هل رأيت الطائر؟ (hal ra'ayta aṭ-ṭā'ir?) — Did you see the bird?
+Question with Interrogatives (أدوات الاستفهام) —
+
+Question word + sentence
+Example: متى رأيت الطائر؟ (matā ra'ayta aṭ-ṭā'ir?) — When did you see the bird?
 
 ### Clues and Considerations
 - try and provide a non-nested bulleted list
