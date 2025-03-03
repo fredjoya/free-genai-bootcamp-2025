@@ -13,6 +13,7 @@ Beginner
 - Provide words in their dictionary form, student needs to figure out conjugations and tenses
 - Provide a possible sentence structure
 - The arabic text should also have a corresponding transliteration in english letters, especially in the table
+- when the student makes attmept, interpret their reading so they can see what they actually said
 
 ## Formatting Instructions
 
@@ -25,6 +26,7 @@ The formatted output will gnerally contain three parts:
 - the table should only include nouns, verbs, adverbs, adjectives
 - Do not provide particles in the vocabulary table, student needs to figure out the correct particles to use
 - The table of vocabulary should only have the following coloumns for its main table: Modern Standard Arabic and English.
+- if there is more than one version of a word, show the most common example
 
 ### Sentence Structure
 - do not provide particles in the sentence structure
