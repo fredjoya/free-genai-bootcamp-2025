@@ -87,7 +87,7 @@ When the input sounds like a question about language learning, then we can assum
 ### Clues, Considerations, Next Steps
 - try and provide a non-nested bulleted list
 - talk about the vocabulary but try to leave out the arabic words because the student can refer to the vocabulary table
-- reference the <file>considerations-examples.xml</file> for good examples 
+- reference the <file>considerations-examples.xml</file> for good example, but adhere to the one that has a score of 10
 
 ## Student Input
 Did you see the bird this morning? They were in our garden.
