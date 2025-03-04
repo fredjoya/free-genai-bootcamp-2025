@@ -136,6 +136,7 @@ When the input sounds like a question about language learning, then we can assum
 - try and provide a non-nested bulleted list
 - talk about the vocabulary but try to leave out the arabic words because the student can refer to the vocabulary table
 - Suggest simple grammar tips
+- make this part only 2-4 points
 
 
        
