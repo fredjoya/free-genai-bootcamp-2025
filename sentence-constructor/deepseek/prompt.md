@@ -75,7 +75,7 @@ When the input sounds like a question about language learning, then we can assum
 ### Vocabulary Table
 - the table should only include nouns, verbs, adverbs, adjectives
 - Do not provide particles in the vocabulary table, student needs to figure out the correct particles to use
-- The table of vocabulary should only have the following coloumns for its main table: Modern Standard Arabic and English.
+- The table of vocabulary should only have the following coloumns for its main table: Modern Standard Arabic, Transliteration, and English.
 - if there is more than one version of a word, show the most common example
 
 ### Sentence Structure
@@ -86,7 +86,8 @@ When the input sounds like a question about language learning, then we can assum
 
 ### Clues, Considerations, Next Steps
 - try and provide a non-nested bulleted list
-- talk about the vocabulary bt try to leave out the arabic words because the student can refer to the vocabulary table 
+- talk about the vocabulary but try to leave out the arabic words because the student can refer to the vocabulary table
+- reference the <file>considerations-examples.xml</file> for good examples 
 
 ## Student Input
 Did you see the bird this morning? They were in our garden.
