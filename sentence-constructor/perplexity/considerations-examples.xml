@@ -1,0 +1,44 @@
+<examples>
+    <example>
+        <output>
+Clues, Considerations, Next Steps
+
+- The sentence has two main parts: describing the temperature in the office and the difficulty of typing.
+
+- Use the Nominal Sentence structure for the first part to describe the office being cold.
+
+- Use the Verbal Sentence structure for the second part to describe the difficulty of typing.
+
+- Remember to conjugate the verb "to type" according to the subject.
+
+- Consider using the preposition "في" (in) to indicate location (e.g., "in the office").
+
+- Think about how to connect the two parts of the sentence using a conjunction like "so" (ف).
+
+Now, try to construct the sentence in Arabic! If you need more clues, feel free to ask.
+        </output>
+        <score>6</score>
+        <score:reason>
+        This example output scores 6 because the returned information is too verbose
+        </score:reason>
+    </example>
+    <example>
+        <output>
+Clues, Considerations, Next Steps
+
+- Use Nominal Sentence for "The office is cold."
+
+- Use Verbal Sentence for "It is hard to type on the computer."
+
+- Connect the two parts with "so" (ف).
+
+- Conjugate "to type" correctly.
+
+Now, try to construct the sentence in Arabic! If you need more clues, feel free to ask.
+        </output>
+        <score>10</score>
+        <score:reason>
+        This example output scores 10 because the returned information is concise
+        </score:reason>
+    </example>
+</examples>
