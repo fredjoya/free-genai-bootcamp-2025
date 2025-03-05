@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Filename: sentence-structure-examples.xml -->
+<lesson>
+    <title>Basic Sentence Structures</title>
+    <structures>
+        <structure>
+            <type>Nominal Sentence (جملة اسمية)</type>
+            <description>Starts with a noun or pronoun.</description>
+            <pattern>Subject + Predicate</pattern>
+            <example>
+                <arabic>الطائر جميل</arabic>
+                <transliteration>aṭ-ṭā'ir jamīl</transliteration>
+                <english>The bird is beautiful.</english>
+            </example>
+        </structure>
+        <structure>
+            <type>Verbal Sentence (جملة فعلية)</type>
+            <description>Starts with a verb.</description>
+            <pattern>Verb + Subject + Object</pattern>
+            <example>
+                <arabic>رأيت الطائر</arabic>
+                <transliteration>ra'aytu aṭ-ṭā'ir</transliteration>
+                <english>I saw the bird.</english>
+            </example>
+        </structure>
+        <structure>
+            <type>Possessive Structure (إضافة)</type>
+            <description>To show possession.</description>
+            <pattern>Possessed noun + Possessor</pattern>
+            <example>
+                <arabic>حديقتنا جميلة</arabic>
+                <transliteration>ḥadīqatunā jamīlah</transliteration>
+                <english>Our garden is beautiful.</english>
+            </example>
+        </structure>
+        <structure>
+            <type>Prepositional Phrase (جار ومجرور)</type>
+            <description>To describe location, time, etc.</description>
+            <pattern>Preposition + Noun</pattern>
+            <example>
+                <arabic>في الحديقة</arabic>
+                <transliteration>fī al-ḥadīqah</transliteration>
+                <english>In the garden.</english>
+            </example>
+        </structure>
+        <structure>
+            <type>Yes/No Questions (أسئلة نعم ولا)</type>
+            <description>Formed using هل + nominal or verbal sentence.</description>
+            <pattern>هل + Sentence</pattern>
+            <example>
+                <arabic>هل رأيت الطائر؟</arabic>
+                <transliteration>hal ra'ayta aṭ-ṭā'ir?</transliteration>
+                <english>Did you see the bird?</english>
+            </example>
+        </structure>
+        <structure>
+            <type>Question with Interrogatives (أدوات الاستفهام)</type>
+            <description>Formed using a question word + sentence.</description>
+            <pattern>Question Word + Sentence</pattern>
+            <example>
+                <arabic>متى رأيت الطائر؟</arabic>
+                <transliteration>matā ra'ayta aṭ-ṭā'ir?</transliteration>
+                <english>When did you see the bird?</english>
+            </example>
+        </structure>
+    </structures>
+</lesson>
