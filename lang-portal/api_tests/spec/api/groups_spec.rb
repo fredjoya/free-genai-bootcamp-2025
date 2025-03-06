@@ -42,4 +42,21 @@ RSpec.describe 'Groups API' do
       )
     end
   end
+
+  describe 'GET /groups/:id/study_sessions' do
+    it 'returns study sessions for a group' do
+      response = HTTParty.get("#{BASE_URL}/groups/1/study_sessions")
+      expect(response.code).to eq(200)
+      sessions = JSON.parse(response.body)
+      expect(sessions).to be_an(Array)
+      expect(sessions.first).to include(
+        'id',
+        'activity_name',
+        'group_name',
+        'start_time',
+        'end_time',
+        'review_items_count'
+      )
+    end
+  end
 end 

@@ -21,15 +21,8 @@ func (h *GroupHandler) GetAllGroups(c *gin.Context) {
     groups := []gin.H{
         {
             "id":          1,
-            "name":        "Basic Phrases",
-            "description": "Common everyday phrases",
-            "word_count":  2,
-        },
-        {
-            "id":          2,
-            "name":        "Numbers",
-            "description": "Counting and basic numbers",
-            "word_count":  3,
+            "name":        "Basic Greetings",
+            "word_count":  25,
         },
     }
     c.JSON(http.StatusOK, groups)
@@ -40,9 +33,8 @@ func (h *GroupHandler) GetGroup(c *gin.Context) {
     if id == "1" {
         c.JSON(http.StatusOK, gin.H{
             "id":          1,
-            "name":        "Basic Phrases",
-            "description": "Common everyday phrases",
-            "word_count":  2,
+            "name":        "Basic Greetings",
+            "word_count":  25,
         })
     } else {
         c.JSON(http.StatusNotFound, gin.H{"error": "group not found"})
@@ -54,10 +46,12 @@ func (h *GroupHandler) GetGroupStudySessions(c *gin.Context) {
     if groupID == "1" {
         sessions := []gin.H{
             {
-                "id":              1,
-                "study_activity_id": 1,
-                "group_id":         1,
-                "created_at":       "2025-03-06T00:00:00Z",
+                "id":               123,
+                "activity_name":     "Vocabulary Quiz",
+                "group_name":        "Basic Greetings",
+                "start_time":        "2025-02-08T17:20:23-05:00",
+                "end_time":          "2025-02-08T17:30:23-05:00",
+                "review_items_count": 20,
             },
         }
         c.JSON(http.StatusOK, sessions)

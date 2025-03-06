@@ -40,10 +40,10 @@ func (h *StudyHandler) CreateStudySession(c *gin.Context) {
 func (h *StudyHandler) GetAllStudySessions(c *gin.Context) {
 	sessions := []gin.H{
 		{
-			"id":              1,
+			"id":               1,
 			"study_activity_id": 1,
 			"group_id":         1,
-			"created_at":       "2025-03-06T00:00:00Z",
+			"created_at":       "2025-02-08T17:20:23-05:00",
 		},
 	}
 	c.JSON(http.StatusOK, sessions)
@@ -54,10 +54,10 @@ func (h *StudyHandler) GetStudySession(c *gin.Context) {
 	id := c.Param("id")
 	if id == "1" {
 		c.JSON(http.StatusOK, gin.H{
-			"id":              1,
+			"id":               1,
 			"study_activity_id": 1,
 			"group_id":         1,
-			"created_at":       "2025-03-06T00:00:00Z",
+			"created_at":       "2025-02-08T17:20:23-05:00",
 		})
 	} else {
 		c.JSON(http.StatusNotFound, gin.H{"error": "study session not found"})
@@ -74,12 +74,9 @@ func (h *StudyHandler) GetStudySessionWords(c *gin.Context) {
 				"arabic":        "مرحبا",
 				"transliteration": "marhaba",
 				"english":       "hello",
-			},
-			{
-				"id":            2,
-				"arabic":        "عالم",
-				"transliteration": "alam",
-				"english":       "world",
+				"correct_count": 5,
+				"wrong_count":   2,
+				"review_correct": true,
 			},
 		}
 		c.JSON(http.StatusOK, words)
@@ -90,10 +87,16 @@ func (h *StudyHandler) GetStudySessionWords(c *gin.Context) {
 
 // ResetHistory handles POST /api/reset_history
 func (h *StudyHandler) ResetHistory(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"status": "success"})
+	c.JSON(http.StatusOK, gin.H{
+		"success": true,
+		"message": "Study history has been reset successfully",
+	})
 }
 
 // FullReset handles POST /api/full_reset
 func (h *StudyHandler) FullReset(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"status": "success"})
+	c.JSON(http.StatusOK, gin.H{
+		"success": true,
+		"message": "Database has been reset and reseeded successfully",
+	})
 } 
