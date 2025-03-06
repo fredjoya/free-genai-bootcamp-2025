@@ -17,55 +17,39 @@ func SetupRouter() *gin.Engine {
 
 	r := gin.Default()
 
-	// Add CORS middleware
-	r.Use(func(c *gin.Context) {
-		c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
-		c.Writer.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-		c.Writer.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
-		
-		if c.Request.Method == "OPTIONS" {
-			c.AbortWithStatus(204)
-			return
-		}
-		
-		c.Next()
+	// Health check endpoint
+	r.GET("/api/health", func(c *gin.Context) {
+		c.JSON(200, gin.H{"status": "ok"})
 	})
 
-	// API routes
-	api := r.Group("/api")
-	{
-		// Dashboard routes
-		dashboard := api.Group("/dashboard")
-		{
-			dashboard.GET("/last_study_session", dashboardHandler.GetLastStudySession)
-			dashboard.GET("/study_progress", dashboardHandler.GetStudyProgress)
-			dashboard.GET("/quick-stats", dashboardHandler.GetQuickStats)
-		}
+	// Dashboard endpoints
+	r.GET("/api/dashboard/last_study_session", dashboardHandler.GetLastStudySession)
+	r.GET("/api/dashboard/study_progress", dashboardHandler.GetStudyProgress)
+	r.GET("/api/dashboard/quick-stats", dashboardHandler.GetQuickStats)
 
-		// Words routes
-		api.GET("/words", wordHandler.GetAllWords)
-		api.GET("/words/:id", wordHandler.GetWord)
-		api.GET("/groups/:id/words", wordHandler.GetWordsByGroup)
-		api.POST("/study_sessions/:word_id/review", wordHandler.AddWordReview)
+	// Words endpoints
+	r.GET("/api/words", wordHandler.GetAllWords)
+	r.GET("/api/words/:id", wordHandler.GetWord)
+	r.GET("/api/groups/:id/words", wordHandler.GetWordsByGroup)
+	r.POST("/api/study_sessions/:word_id/review", wordHandler.AddWordReview)
 
-		// Groups routes
-		api.GET("/groups", groupHandler.GetAllGroups)
-		api.GET("/groups/:id", groupHandler.GetGroup)
-		api.GET("/groups/:id/study_sessions", groupHandler.GetGroupStudySessions)
+	// Groups endpoints
+	r.GET("/api/groups", groupHandler.GetAllGroups)
+	r.GET("/api/groups/:id", groupHandler.GetGroup)
+	r.GET("/api/groups/:id/study_sessions", groupHandler.GetGroupStudySessions)
 
-		// Study routes
-		api.GET("/study_sessions", studyHandler.GetAllStudySessions)
-		api.GET("/study_sessions/:id", studyHandler.GetStudySession)
-		api.GET("/study_sessions/:id/words", studyHandler.GetStudySessionWords)
-		api.POST("/study_sessions", studyHandler.CreateStudySession)
-		api.POST("/reset_history", studyHandler.ResetHistory)
-		api.POST("/full_reset", studyHandler.FullReset)
+	// Study Sessions endpoints
+	r.GET("/api/study_sessions", studyHandler.GetAllStudySessions)
+	r.GET("/api/study_sessions/:id", studyHandler.GetStudySession)
+	r.GET("/api/study_sessions/:id/words", studyHandler.GetStudySessionWords)
+	r.POST("/api/study_sessions", studyHandler.CreateStudySession)
+	r.POST("/api/reset_history", studyHandler.ResetHistory)
+	r.POST("/api/full_reset", studyHandler.FullReset)
 
-		// Learning Activities routes
-		api.GET("/study_activities/:id", activityHandler.GetLearningActivity)
-		api.GET("/study_activities/:id/study_sessions", activityHandler.GetLearningActivitySessions)
-		api.POST("/study_activities", activityHandler.CreateLearningActivity)
-	}
+	// Learning Activities routes
+	r.GET("/api/study_activities/:id", activityHandler.GetLearningActivity)
+	r.GET("/api/study_activities/:id/study_sessions", activityHandler.GetLearningActivitySessions)
+	r.POST("/api/study_activities", activityHandler.CreateLearningActivity)
 
 	return r
 } 
