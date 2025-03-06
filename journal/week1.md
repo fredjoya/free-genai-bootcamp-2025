@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the ongoing development of the Go backend server for a language learning portal and the approach taken to test its API endpoints. The backend is being built using the **Gin framework** \ and utilises **SQLite3** for database connectivity \. My testing strategy involves using **RSpec**, a testing framework for Ruby, chosen for its **developer-friendliness and readability**. The goal is to implement all required API endpoints according to the backend technical specifications file.
+This document outlines the ongoing development of the Go backend server for a language learning portal and the approach taken to test its API endpoints. The backend is being built using the **Gin framework** and utilises **SQLite3** for database connectivity \. My testing strategy involves using **RSpec**, a testing framework for Ruby, chosen for its **developer-friendliness and readability**. The goal is to implement all required API endpoints according to the backend technical specifications file.
 
 ## Development Summary
 
