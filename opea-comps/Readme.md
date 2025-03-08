@@ -17,7 +17,7 @@ ifconfig
 ```
 Or you can try this way `$(hostname -I | awk '{print $1}')`
 
-HOST_IP==$(hostname -I | awk '{print $1}') NO_PROXY=localhost LLM_ENDPOINT_PORT=8008 LLM_MODEL_ID="llama3.2:1B" docker compose up
+HOST_IP==$(hostname -I | awk '{print $1}') NO_PROXY=localhost LLM_ENDPOINT_PORT=9000 LLM_MODEL_ID="llama3.2:1B" docker compose up
 
 ### Ollama API
 
@@ -27,13 +27,13 @@ https://github.com/ollama/ollama/blob/main/docs/api.md
 
 ## Download (Pull) a model
 
-curl http://localhost:8008/api/pull -d '{
+curl http://localhost:9000/api/pull -d '{
   "model": "llama3.2:1B"
 }'
 
 ## Generate a Request
 
-curl http://localhost:8008/api/generate -d '{
+curl http://localhost:9000/api/generate -d '{
   "model": "llama3.2:1B",
   "prompt": "Why is the sky blue?"
 }'
@@ -55,3 +55,7 @@ A: It does not appear so. The ollama CLI might be running multiple APIs so you n
 Q: Will the model be downloaded in the container? Does that mean the LLM model will be deleted when the container stops running?
 
 A: The model will download into the container, and vanish when the container stops running. you need to mount a local drive and there is probably more work to be done.
+
+Q: For LLM service which can text-generate, it suggests it will only work with TGI/vLLM, and all you have to do is have it running. Do TGI and vLLM have a standardized API, or is there code to detect which one is running? Do we have to really use Xeon or Gaudi processors?
+
+vLLM, TGI (Text Generation Inference), and Ollama all offer APIs with OpenAI compatibility, so in theory they should be interchangeable.
