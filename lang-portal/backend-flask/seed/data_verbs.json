@@ -1,572 +1,262 @@
 [
   {
-    "kanji": "払う",
-    "romaji": "harau",
-    "english": "to pay",
-    "parts": [
-      { "kanji": "払", "romaji": ["ha","ra"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "دَفَعَ",
+    "transliteration": "dafa'a",
+    "english": "to pay"
   },
   {
-    "kanji": "行く",
-    "romaji": "iku",
-    "english": "to go",
-    "parts": [
-      { "kanji": "行", "romaji": ["i"] },
-      { "kanji": "く", "romaji": ["ku"] }
-    ]
+    "arabic": "ذَهَبَ",
+    "transliteration": "dhahaba",
+    "english": "to go"
   },
   {
-    "kanji": "運動する",
-    "romaji": "undousuru",
-    "english": "to exercise",
-    "parts": [
-      { "kanji": "運", "romaji": ["un"] },
-      { "kanji": "動", "romaji": ["do","u"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "مَارَسَ الرِّيَاضَةَ",
+    "transliteration": "maaras al-riyada",
+    "english": "to exercise"
   },
   {
-    "kanji": "起きる",
-    "romaji": "okiru",
-    "english": "to wake up",
-    "parts": [
-      { "kanji": "起", "romaji": ["o"] },
-      { "kanji": "き", "romaji": ["ki"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "استَيْقَظَ",
+    "transliteration": "istaayqadha",
+    "english": "to wake up"
   },
   {
-    "kanji": "買い物する",
-    "romaji": "kaimonosuru",
-    "english": "to shop",
-    "parts": [
-      { "kanji": "買", "romaji": ["ka"] },
-      { "kanji": "い", "romaji": ["i"] },
-      { "kanji": "物", "romaji": ["mo", "no"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "تَسَوَّقَ",
+    "transliteration": "tasawwaqa",
+    "english": "to shop"
   },
   {
-    "kanji": "帰る",
-    "romaji": "kaeru",
-    "english": "to return",
-    "parts": [
-      { "kanji": "帰", "romaji": ["ka", "e"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "رَجَعَ",
+    "transliteration": "raja'a",
+    "english": "to return"
   },
   {
-    "kanji": "書く",
-    "romaji": "kaku",
-    "english": "to write",
-    "parts": [
-      { "kanji": "書", "romaji": ["ka"] },
-      { "kanji": "く", "romaji": ["ku"] }
-    ]
+    "arabic": "كَتَبَ",
+    "transliteration": "kataba",
+    "english": "to write"
   },
   {
-    "kanji": "観光する",
-    "romaji": "kankousuru",
-    "english": "to sightsee",
-    "parts": [
-      { "kanji": "観", "romaji": ["kan"] },
-      { "kanji": "光", "romaji": ["kou"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "زَارَ",
+    "transliteration": "zaara",
+    "english": "to sightsee"
   },
   {
-    "kanji": "聞く",
-    "romaji": "kiku",
-    "english": "to listen",
-    "parts": [
-      { "kanji": "聞", "romaji": ["ki"] },
-      { "kanji": "く", "romaji": ["ku"] }
-    ]
+    "arabic": "سَمِعَ",
+    "transliteration": "sami'a",
+    "english": "to listen"
   },
   {
-    "kanji": "来る",
-    "romaji": "kuru",
-    "english": "to come",
-    "parts": [
-      { "kanji": "来", "romaji": ["ku"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "جَاءَ",
+    "transliteration": "jaa'a",
+    "english": "to come"
   },
   {
-    "kanji": "する",
-    "romaji": "suru",
-    "english": "to do",
-    "parts": [
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "فَعَلَ",
+    "transliteration": "fa'ala",
+    "english": "to do"
   },
   {
-    "kanji": "食べる",
-    "romaji": "taberu",
-    "english": "to eat",
-    "parts": [
-      { "kanji": "食", "romaji": ["ta"] },
-      { "kanji": "べ", "romaji": ["be"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "أَكَلَ",
+    "transliteration": "akala",
+    "english": "to eat"
   },
   {
-    "kanji": "寝る",
-    "romaji": "neru",
-    "english": "to sleep",
-    "parts": [
-      { "kanji": "寝", "romaji": ["ne"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "نَامَ",
+    "transliteration": "naama",
+    "english": "to sleep"
   },
   {
-    "kanji": "飲む",
-    "romaji": "nomu",
-    "english": "to drink",
-    "parts": [
-      { "kanji": "飲", "romaji": ["no"] },
-      { "kanji": "む", "romaji": ["mu"] }
-    ]
+    "arabic": "شَرِبَ",
+    "transliteration": "shariba",
+    "english": "to drink"
   },
   {
-    "kanji": "乗る",
-    "romaji": "noru",
-    "english": "to ride",
-    "parts": [
-      { "kanji": "乗", "romaji": ["no"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "رَكِبَ",
+    "transliteration": "rakiba",
+    "english": "to ride"
   },
   {
-    "kanji": "話す",
-    "romaji": "hanasu",
-    "english": "to speak",
-    "parts": [
-      { "kanji": "話", "romaji": ["ha", "na"] },
-      { "kanji": "す", "romaji": ["su"] }
-    ]
+    "arabic": "تَحَدَّثَ",
+    "transliteration": "tahaddatha",
+    "english": "to speak"
   },
   {
-    "kanji": "勉強する",
-    "romaji": "benkyousuru",
-    "english": "to study",
-    "parts": [
-      { "kanji": "勉", "romaji": ["be","n"] },
-      { "kanji": "強", "romaji": ["kyo","u"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "دَرَسَ",
+    "transliteration": "darasa",
+    "english": "to study"
   },
   {
-    "kanji": "見る",
-    "romaji": "miru",
-    "english": "to see",
-    "parts": [
-      { "kanji": "見", "romaji": ["mi"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "رَءَا",
+    "transliteration": "ra'a",
+    "english": "to see"
   },
   {
-    "kanji": "読む",
-    "romaji": "yomu",
-    "english": "to read",
-    "parts": [
-      { "kanji": "読", "romaji": ["yo"] },
-      { "kanji": "む", "romaji": ["mu"] }
-    ]
+    "arabic": "قَرَأَ",
+    "transliteration": "qara'a",
+    "english": "to read"
   },
   {
-    "kanji": "掛ける",
-    "romaji": "kakeru",
-    "english": "to hang; to call (phone)",
-    "parts": [
-      { "kanji": "掛", "romaji": ["ka"] },
-      { "kanji": "け", "romaji": ["ke"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "تَعَلَّقَ",
+    "transliteration": "ta'allaqa",
+    "english": "to hang; to call (phone)"
   },
   {
-    "kanji": "借りる",
-    "romaji": "kariru",
-    "english": "to borrow",
-    "parts": [
-      { "kanji": "借", "romaji": ["ka", "ri"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "اِسْتَعَارَ",
+    "transliteration": "ista'aara",
+    "english": "to borrow"
   },
   {
-    "kanji": "貸す",
-    "romaji": "kasu",
-    "english": "to lend",
-    "parts": [
-      { "kanji": "貸", "romaji": ["ka"] },
-      { "kanji": "す", "romaji": ["su"] }
-    ]
+    "arabic": "أَعَارَ",
+    "transliteration": "a'ara",
+    "english": "to lend"
   },
   {
-    "kanji": "習う",
-    "romaji": "narau",
-    "english": "to learn",
-    "parts": [
-      { "kanji": "習", "romaji": ["na", "ra"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "تَعَلَّمَ",
+    "transliteration": "ta'allama",
+    "english": "to learn"
   },
   {
-    "kanji": "教える",
-    "romaji": "oshieru",
-    "english": "to teach",
-    "parts": [
-      { "kanji": "教", "romaji": ["o", "shi"] },
-      { "kanji": "え", "romaji": ["e"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "عَلَّمَ",
+    "transliteration": "allama",
+    "english": "to teach"
   },
   {
-    "kanji": "もらう",
-    "romaji": "morau",
-    "english": "to receive",
-    "parts": [
-      { "kanji": "も", "romaji": ["mo"] },
-      { "kanji": "ら", "romaji": ["ra"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "مَاخَذَ",
+    "transliteration": "maakhadha",
+    "english": "to receive"
   },
   {
-    "kanji": "あげる",
-    "romaji": "ageru",
-    "english": "to give",
-    "parts": [
-      { "kanji": "あ", "romaji": ["a"] },
-      { "kanji": "げ", "romaji": ["ge"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "أَعْطَى",
+    "transliteration": "a'taa",
+    "english": "to give"
   },
   {
-    "kanji": "会う",
-    "romaji": "au",
-    "english": "to meet",
-    "parts": [
-      { "kanji": "会", "romaji": ["a"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "لِقَاءَ",
+    "transliteration": "liqaa",
+    "english": "to meet"
   },
   {
-    "kanji": "下車する",
-    "romaji": "geshasuru",
-    "english": "to get off (vehicle)",
-    "parts": [
-      { "kanji": "下", "romaji": ["ge"] },
-      { "kanji": "車", "romaji": ["sha"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "نَزَلَ",
+    "transliteration": "nazala",
+    "english": "to get off (vehicle)"
   },
   {
-    "kanji": "始める",
-    "romaji": "hajimeru",
-    "english": "to start",
-    "parts": [
-      { "kanji": "始", "romaji": ["ha", "ji"] },
-      { "kanji": "め", "romaji": ["me"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "بَدَأَ",
+    "transliteration": "bada'a",
+    "english": "to start"
   },
   {
-    "kanji": "見せる",
-    "romaji": "miseru",
-    "english": "to show",
-    "parts": [
-      { "kanji": "見", "romaji": ["mi"] },
-      { "kanji": "せ", "romaji": ["se"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "عَرَضَ",
+    "transliteration": "arada",
+    "english": "to show"
   },
   {
-    "kanji": "降りる",
-    "romaji": "oriru",
-    "english": "to get off",
-    "parts": [
-      { "kanji": "降", "romaji": ["o", "ri"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "نَزَلَ",
+    "transliteration": "nazala",
+    "english": "to get off"
   },
   {
-    "kanji": "止める",
-    "romaji": "tomeru",
-    "english": "to stop",
-    "parts": [
-      { "kanji": "止", "romaji": ["to"] },
-      { "kanji": "め", "romaji": ["me"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "وَقَفَ",
+    "transliteration": "waqafa",
+    "english": "to stop"
   },
   {
-    "kanji": "消す",
-    "romaji": "kesu",
-    "english": "to turn off; to erase",
-    "parts": [
-      { "kanji": "消", "romaji": ["ke"] },
-      { "kanji": "す", "romaji": ["su"] }
-    ]
+    "arabic": "أَغْلَقَ",
+    "transliteration": "aghlaqa",
+    "english": "to turn off; to erase"
   },
   {
-    "kanji": "つける",
-    "romaji": "tsukeru",
-    "english": "to turn on",
-    "parts": [
-      { "kanji": "つ", "romaji": ["tsu"] },
-      { "kanji": "け", "romaji": ["ke"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "شَغَّلَ",
+    "transliteration": "shaghghala",
+    "english": "to turn on"
   },
   {
-    "kanji": "急ぐ",
-    "romaji": "isogu",
-    "english": "to hurry",
-    "parts": [
-      { "kanji": "急", "romaji": ["i", "so"] },
-      { "kanji": "ぐ", "romaji": ["gu"] }
-    ]
+    "arabic": "اِسْتَعَجَلَ",
+    "transliteration": "ista'jil",
+    "english": "to hurry"
   },
   {
-    "kanji": "手伝う",
-    "romaji": "tetsudau",
-    "english": "to help",
-    "parts": [
-      { "kanji": "手", "romaji": ["te"] },
-      { "kanji": "伝", "romaji": ["tsu", "da"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "مُسَاعَدَة",
+    "transliteration": "musa'ada",
+    "english": "to help"
   },
   {
-    "kanji": "取る",
-    "romaji": "toru",
-    "english": "to take",
-    "parts": [
-      { "kanji": "取", "romaji": ["to"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "أَخَذَ",
+    "transliteration": "akhadha",
+    "english": "to take"
   },
   {
-    "kanji": "持つ",
-    "romaji": "motsu",
-    "english": "to hold",
-    "parts": [
-      { "kanji": "持", "romaji": ["mo"] },
-      { "kanji": "つ", "romaji": ["tsu"] }
-    ]
+    "arabic": "حَمَلَ",
+    "transliteration": "hamala",
+    "english": "to hold"
   },
   {
-    "kanji": "待つ",
-    "romaji": "matsu",
-    "english": "to wait",
-    "parts": [
-      { "kanji": "待", "romaji": ["ma"] },
-      { "kanji": "つ", "romaji": ["tsu"] }
-    ]
+    "arabic": "اِنتَظَرَ",
+    "transliteration": "intazara",
+    "english": "to wait"
   },
   {
-    "kanji": "歩く",
-    "romaji": "aruku",
-    "english": "to walk",
-    "parts": [
-      { "kanji": "歩", "romaji": ["a", "ru"] },
-      { "kanji": "く", "romaji": ["ku"] }
-    ]
+    "arabic": "مَشَى",
+    "transliteration": "masha",
+    "english": "to walk"
   },
   {
-    "kanji": "閉める",
-    "romaji": "shimeru",
-    "english": "to close",
-    "parts": [
-      { "kanji": "閉", "romaji": ["shi"] },
-      { "kanji": "め", "romaji": ["me"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "أَغْلَقَ",
+    "transliteration": "aghlaqa",
+    "english": "to close"
   },
   {
-    "kanji": "休む",
-    "romaji": "yasumu",
-    "english": "to rest",
-    "parts": [
-      { "kanji": "休", "romaji": ["ya", "su"] },
-      { "kanji": "む", "romaji": ["mu"] }
-    ]
+    "arabic": "رَاحَ",
+    "transliteration": "raaha",
+    "english": "to rest"
   },
   {
-    "kanji": "終わる",
-    "romaji": "owaru",
-    "english": "to finish",
-    "parts": [
-      { "kanji": "終", "romaji": ["o"] },
-      { "kanji": "わ", "romaji": ["wa"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "انْتَهَى",
+    "transliteration": "intaha",
+    "english": "to finish"
   },
   {
-    "kanji": "働く",
-    "romaji": "hataraku",
-    "english": "to work",
-    "parts": [
-      { "kanji": "働", "romaji": ["ha", "ta", "ra"] },
-      { "kanji": "く", "romaji": ["ku"] }
-    ]
+    "arabic": "عَمِلَ",
+    "transliteration": "amila",
+    "english": "to work"
   },
   {
-    "kanji": "開ける",
-    "romaji": "akeru",
-    "english": "to open",
-    "parts": [
-      { "kanji": "開", "romaji": ["a"] },
-      { "kanji": "け", "romaji": ["ke"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "فَتَحَ",
+    "transliteration": "fataha",
+    "english": "to open"
   },
   {
-    "kanji": "呼ぶ",
-    "romaji": "yobu",
-    "english": "to call",
-    "parts": [
-      { "kanji": "呼", "romaji": ["yo"] },
-      { "kanji": "ぶ", "romaji": ["bu"] }
-    ]
+    "arabic": "نَادَى",
+    "transliteration": "naada",
+    "english": "to call"
   },
   {
-    "kanji": "送る",
-    "romaji": "okuru",
-    "english": "to send",
-    "parts": [
-      { "kanji": "送", "romaji": ["o", "ku"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "أَرْسَلَ",
+    "transliteration": "arsala",
+    "english": "to send"
   },
   {
-    "kanji": "切る",
-    "romaji": "kiru",
-    "english": "to cut",
-    "parts": [
-      { "kanji": "切", "romaji": ["ki"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "قَطَعَ",
+    "transliteration": "qata'a",
+    "english": "to cut"
   },
   {
-    "kanji": "撮る",
-    "romaji": "toru",
-    "english": "to take (a photo)",
-    "parts": [
-      { "kanji": "撮", "romaji": ["to"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "صَوَّرَ",
+    "transliteration": "sawwara",
+    "english": "to take (a photo)"
   },
   {
-    "kanji": "言う",
-    "romaji": "iu",
-    "english": "to say",
-    "parts": [
-      { "kanji": "言", "romaji": ["i"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "قَالَ",
+    "transliteration": "qaala",
+    "english": "to say"
   },
   {
-    "kanji": "見れる",
-    "romaji": "mireru",
-    "english": "to be able to see",
-    "parts": [
-      { "kanji": "見", "romaji": ["mi"] },
-      { "kanji": "れ", "romaji": ["re"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
+    "arabic": "رَءَا",
+    "transliteration": "ra'a",
+    "english": "to see"
   },
   {
-    "kanji": "作る",
-    "romaji": "tsukuru",
-    "english": "to make",
-    "parts": [
-      { "kanji": "作", "romaji": ["tsu", "ku"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
-  },
-  {
-    "kanji": "使う",
-    "romaji": "tsukau",
-    "english": "to use",
-    "parts": [
-      { "kanji": "使", "romaji": ["tsu", "ka"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
-  },
-  {
-    "kanji": "有る",
-    "romaji": "aru",
-    "english": "to exist (inanimate)",
-    "parts": [
-      { "kanji": "有", "romaji": ["a"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
-  },
-  {
-    "kanji": "居る",
-    "romaji": "iru",
-    "english": "to exist (animate)",
-    "parts": [
-      { "kanji": "居", "romaji": ["i"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
-  },
-  {
-    "kanji": "困る",
-    "romaji": "komaru",
-    "english": "to be troubled",
-    "parts": [
-      { "kanji": "困", "romaji": ["ko", "ma"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
-  },
-  {
-    "kanji": "泳ぐ",
-    "romaji": "oyogu",
-    "english": "to swim",
-    "parts": [
-      { "kanji": "泳", "romaji": ["o", "yo"] },
-      { "kanji": "ぐ", "romaji": ["gu"] }
-    ]
-  },
-  {
-    "kanji": "散歩する",
-    "romaji": "sanposuru",
-    "english": "to stroll",
-    "parts": [
-      { "kanji": "散", "romaji": ["san"] },
-      { "kanji": "歩", "romaji": ["po"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
-  },
-  {
-    "kanji": "運転する",
-    "romaji": "untensuru",
-    "english": "to drive",
-    "parts": [
-      { "kanji": "運", "romaji": ["un"] },
-      { "kanji": "転", "romaji": ["ten"] },
-      { "kanji": "す", "romaji": ["su"] },
-      { "kanji": "る", "romaji": ["ru"] }
-    ]
-  },
-  {
-    "kanji": "合う",
-    "romaji": "au",
-    "english": "to meet; to fit",
-    "parts": [
-      { "kanji": "合", "romaji": ["a"] },
-      { "kanji": "う", "romaji": ["u"] }
-    ]
+    "arabic": "صَنَعَ",
+    "transliteration": "sana'a",
+    "english": "to make"
   }
 ]
